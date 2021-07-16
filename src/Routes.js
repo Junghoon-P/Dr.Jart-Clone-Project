@@ -6,20 +6,23 @@ import Login from './pages/Login/Login';
 import Main from './pages/Main/Main';
 import Shop from './pages/Shop/Shop';
 import Detail from './pages/Detail/Detail';
-
-import './styles/common.scss';
-import './styles/reset.scss';
+import Cart from './pages/Cart/Cart';
+import Order from './pages/Order/Order';
+import Nav from './components/Nav/Nav';
 
 class Routes extends Component {
   render() {
     return (
       <Router>
+        <Nav />
         <Switch>
           <Route exact path="/signup" component={SiginUp} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/main" component={Main} />
-          <Route exact path="/shop" component={Shop} />
-          <Route exact path="/detail" component={Detail} />
+          <Route exact path="/shop/:id" component={Shop} />
+          <Route exact path="/detail/:id" component={Detail} />
+          <Route exact path="/cart" component={Cart} />
+          <Route exact path="/order" component={Order} />
         </Switch>
       </Router>
     );
