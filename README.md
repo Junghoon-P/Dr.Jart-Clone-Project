@@ -1,9 +1,9 @@
-##프로젝트명: Dr.Mozzarella
+## 프로젝트명: Dr.Mozzarella
 
-프론트 - 박정훈, 황소미, 이종민
+프론트 - 박정훈, 황소미, 이종민<br/>
 백앤드 - 안희수, 이동명, 김한준
 
-###담당파트
+## 담당파트
 
 Nav Bar
 - 드롭다운 기능 구현 및 동적라우티 연결
@@ -17,4 +17,4 @@ Main Page
 Common Component
 - Nav Bar
 - footer
-- Product Card / 기여도 30% / 옵션 선택시 가격고 연도 기능 재구현 - wip
+- Product Card / 기여도 30% / 옵션 선택시 가격과 연동 기능 재구현 - wip
